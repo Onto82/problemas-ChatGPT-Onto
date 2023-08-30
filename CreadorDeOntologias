@@ -1,0 +1,29 @@
+Creador de Ontologias
+
+Introducción
+
+El desafío consiste en crear una plataforma web que permita crear una ontologia interactivamente, para un dado conjunto de informacion, de determinadas paginas web y/o textos.
+
+Descripción del Problema
+
+Se requiere desarrollar un sistema que tome como entrada un conjunto de paginas web y/o textos. Se busca crear una ontologia que se cumpla en el conjunto de textos. 
+La manera propuesta, para crear la ontologia, es creando reglas semánticas (que deberán cumplirse en la definición enciclopédica asociada a cada palabra de la ontologia).
+Por ejemplo, si un elemento de la ontologia es "fosforilación", y en la definición enciclopédica asociada, se la presenta como "una reacción química donde ocurre una oxidación, y donde para distintos sustratos, el producto final es la formación de un enlace químico entre la molécula oxidada y un grupo fosfato", entonces el sistema prolongará la Ontologia, en el término "fosforilación", 
+dentro del árbol que contiene los siguientes nodos sucesivos "reacción química", "oxidación", "producto = fosfato".
+
+Ayudas y Sugerencias
+
+    Para parsear los textos ingresados se puede usar alguno de los parseadores semánticos existentes (que, a su vez, podría trabajar con una ontologia propia, no necesariamente relacionada a la que se está creando). 
+    Generar una página web donde se puedan subir los archivos de texto/paginas web, y donde, interactivamente, se pueda seleccionar, dentro de las distintas definiciones/acepciones de una palabra, la acepción que corresponda.
+    La idea, luego de entrenar un modelo, seria que el sistema pueda decidir, con buen margen de probabilidad  cual acepcion tomar.
+
+Requisitos de la Solución
+
+    La solución debe mostrar la ontologia generada hasta el momento.
+
+
+Equipo y Tiempo Estimado
+
+    Se estima que este desafío puede ser abordado por un equipo de 2 a 4 personas.
+    El tiempo estimado para la resolución del desafío es de 1 a 2 semanas, dependiendo de la disponibilidad y dedicación del equipo.
+
